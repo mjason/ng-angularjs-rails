@@ -1,6 +1,5 @@
 # Ng::Angularjs::Rails
 
-TODO: Write a gem description
 
 ## Installation
 
@@ -12,18 +11,13 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+in application.js
+```
+//= require angular
+```
 
-    $ gem install ng-angularjs-rails
+If you desire to require (optional) Angular files, you may include them as well in your Javascript manifest file (application.js). For example:
 
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+//= require angular-bootstrap
+//= require angular-resource
+//= require i18n/angular-locale_zh-cn
