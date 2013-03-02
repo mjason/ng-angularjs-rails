@@ -18,6 +18,8 @@ in application.js
 
 If you desire to require (optional) Angular files, you may include them as well in your Javascript manifest file (application.js). For example:
 
+```
 //= require angular-bootstrap
 //= require angular-resource
 //= require i18n/angular-locale_zh-cn
+```
