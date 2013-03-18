@@ -1,5 +1,7 @@
 # Ng::Angularjs::Rails
 
+## TODO
+added ng-upload.js
 
 ## Installation
 
@@ -22,4 +24,7 @@ If you desire to require (optional) Angular files, you may include them as well 
 //= require angular-bootstrap
 //= require angular-resource
 //= require i18n/angular-locale_zh-cn
+
+// if you hava ng-upload.js
+//= require ng-upload
 ```
